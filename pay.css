@@ -1,62 +1,63 @@
-*{
-    background-color: black;
-    
+* {
+    background-color: #2f2fa2;
     box-sizing: border-box;
 }
 
-body{
-    background-color: black;
-     font-family: Arial, Helvetica, sans-serif ;
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+body {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 15px 20px;
     font-size: 17px;
     padding: 10px;
     color: whitesmoke;
-    
-
 }
-.container{
-    background-color:black;
+
+.container {
     padding: 5px 20px 15px 20px;
-    border: 1px solid blue ;
+    border: 1px solid #8d8741;
     border-radius: 5px;
+}
+
+h6 {
+    color: #17D7A0;
+    font-weight: bolder
 }
 
 input[type="text"],
 input[type="email"],
 input[type="number"],
 input[type="password"],
-input[type="date"],
-select,textarea{
+input[type="month"],
+select,
+textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid red;
-    border-radius:5px;
-    margin: 10px ;
+    border-radius: 5px;
+    margin: 10px;
     color: whitesmoke;
 }
 
-fieldset{
-    background-color: black;
-    border:1px solid lightblue ;
+fieldset {
+    border: 1px solid lightblue;
 }
 
-.mheading{
+.mheading {
     text-align: center;
-    color: red;
+    color: #f64c72;
 }
 
-input[type="submit"]{
+input[type="submit"] {
     background-color: green;
-   color: gold;
-   padding: 12px 20px;
-   border: none;
-   border-radius: 15px;
-   cursor: pointer;
-  
+    color: gold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: auto;
+    display: block;
 }
 
-input[type="submit"]:hover{
-    color:rgb(233,7,7);
+input[type="submit"]:hover {
+    color: #ff4800;
     border-bottom: 1px dotted;
 }
